@@ -1,0 +1,35 @@
+.h-500{height: 500px;}
+
+.bg-theme {
+    background-color: #ff253a;
+
+}
+.text-bg {color: #FF4800;}
+
+.nav-padding .nav-link {
+    padding: 20px 15px!important;
+    color: black;
+    transition: .5s;
+    font-weight: bolder;
+
+}
+.nav-padding .nav-link:hover {
+    background-color: #FF4800;
+    padding: 20px 15px!important;
+    color: white;
+
+}
+.banner-section {
+    height: 500px;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-opacity-banner {
+    opacity: 90%;
+}
+
+.banner-content {
+    margin-top: 50px;
+}
