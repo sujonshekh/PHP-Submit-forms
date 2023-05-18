@@ -15,7 +15,7 @@
                 <h2>Our First Form</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, suscipit?</p>
                 <p> <?php if (isset($_REQUEST['fname']) && !empty($_REQUEST['fname'])){ ?>
-                    First name: <?php echo $_GET['fname']; ?> <br>
+                    First name: <?php echo $_REQUEST['fname']; ?> <br>
                     <?php } ?>
                     <?php if (isset($_REQUEST['lname']) && !empty($_REQUEST['lname'])){ ?>
                     Last name: <?php echo $_REQUEST['lname']; ?> <br>
