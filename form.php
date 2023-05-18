@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Day-14</title>
+    <title>PHP submit form</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/all.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
-<!--php--submit-form-->
+<!--php--submit-form get post method-->
 <body>
     <div class="container py-5">
         <div class="row">
