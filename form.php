@@ -14,11 +14,18 @@
             <div class="col-md-6">
                 <h2>Our First Form</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, suscipit?</p>
+                <p> <?php if (isset($_REQUEST['fname']) && !empty($_REQUEST['fname'])){ ?>
+                    First name: <?php echo $_GET['fname']; ?> <br>
+                    <?php } ?>
+                    <?php if (isset($_REQUEST['lname']) && !empty($_REQUEST['lname'])){ ?>
+                    Last name: <?php echo $_REQUEST['lname']; ?> <br>
+                    <?php } ?>
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <form action="">
+                <form method="POST">
                     <label for="fname">First Name</label>
                     <input type="text" class="form-control" name="fname" id="fname">
                     <label for="lname">Last Name</label>
